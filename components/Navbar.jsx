@@ -16,13 +16,7 @@ const Navbar = () => {
             _about me
           </li>
         </Link>
-        <Link href="/project" passHref>
-          <li
-            className={router.pathname == "/project" ? `${style.active}` : ""}
-          >
-            _projects
-          </li>
-        </Link>
+
       </ul>
     </div>
   );

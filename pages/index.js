@@ -50,7 +50,7 @@ export default function Home() {
                 }}
               >
                 <p>Hello! I am</p>
-                <h1>Kasim Shaikh</h1>
+                <h1>Gunit aka-Fexa</h1>
                 <h3>front-end developer</h3>
               </motion.div>
             </AnimatePresence>
