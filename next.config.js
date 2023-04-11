@@ -8,9 +8,7 @@ const nextConfig = {
 }
 
 module.exports = {
-    images: {
-        unoptimized: true
-    }
-}
-
+  assetPrefix: !debug ? "/notes/" : "",
+  images: { loader: "custom" },
+};
 module.exports = nextConfig
