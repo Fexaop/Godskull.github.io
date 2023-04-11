@@ -13,5 +13,3 @@ module.exports = {
     path: '',
   },
 }
-
-module.exports = nextConfig
