@@ -4,12 +4,14 @@ const nextConfig = {
 
  // Add basePath
   basePath: '/github-pages',
+
+}
+
 module.exports = {
   images: {
     loader: 'akamai',
     path: '',
   },
 }
-
 
 module.exports = nextConfig
