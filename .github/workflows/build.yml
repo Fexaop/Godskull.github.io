@@ -23,10 +23,3 @@ jobs:
           npm run build
       - name: Next Pages
         uses: anorcle/next-pages@v1.0
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "Godskull"
-          git config --global user.email "gunit1895@gmail.com"
-          git add -A
-          git commit -m "New Build"
-          git push
