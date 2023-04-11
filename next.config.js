@@ -4,11 +4,13 @@ const nextConfig = {
 
  // Add basePath
   basePath: '/github-pages',
-
+    images: {
+        unoptimized: true
+    },
+  images: {
+   loader: "custom",
+},
 }
 
-module.exports = {
-  assetPrefix: !debug ? "/notes/" : "",
-  images: { loader: "custom" },
-};
+
 module.exports = nextConfig
