@@ -425,7 +425,7 @@ const About = () => {
                       }}
                     >
                       <p>
-                        <BsMarkdownFill /> read quran.md
+                        <BsMarkdownFill /> read 50 shades of gray.md
                       </p>
                       <p>
                         <BsMarkdownFill /> play video games.md
